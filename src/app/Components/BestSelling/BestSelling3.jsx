@@ -4,10 +4,20 @@ import Link from "next/link";
 const BestSelling3 = () => {
 
     const foodItems = [
-        {img:'/assets/img/dishes/dishes6_1.png', title:'Grilled Salmon', content:'The registration fee', price:'$24.00'},    
-        {img:'/assets/img/dishes/dishes6_2.png', title:'Crab Cakes', content:'The registration fee', price:'$28.00'},    
-        {img:'/assets/img/dishes/dishes6_3.png', title:'Fish and Chips', content:'The registration fee', price:'$20.00'},    
-        {img:'/assets/img/dishes/dishes6_4.png', title:'Shrimp Scampi', content:'The registration fee', price:'$58.00'},       
+        {img:'/assets/img/dishes/BBQ.png', title:'BBQ Sauce', content:'The registration fee', price:'$100.99'},    
+        {img:'/assets/img/dishes/Chili.png', title:'Chilli Sauce', content:'The registration fee', price:'$15.99'},    
+        {img:'/assets/img/dishes/Garlic.png', title:'Chilli Garlic Ketchup', content:'The registration fee', price:'$26.99'},    
+        {img:'/assets/img/dishes/Green.png', title:'Green Chilli Sauce', content:'The registration fee', price:'$39.00'},    
+        {img:'/assets/img/dishes/Pizza.png', title:'Pizza Sauce', content:'The registration fee', price:'$20.99'},  
+        {img:'/assets/img/dishes/Soya.png', title:'Soya Sauce', content:'The registration fee', price:'$100.99'},    
+        {img:'/assets/img/dishes/Tamato.png', title:'Tomato Ketchup', content:'The registration fee', price:'$15.99'},    
+        {img:'/assets/img/dishes/Vinegar.png', title:'Vinegar', content:'The registration fee', price:'$26.99'},    
+        {img:'/assets/img/dishes/Chili-Pack.png', title:'Chilli Garlic Sauce', content:'The registration fee', price:'$39.00'},    
+        {img:'/assets/img/dishes/Classic-Pack.png', title:'CLassic Mayonnaise', content:'The registration fee', price:'$20.99'},      
+        {img:'/assets/img/dishes/Real-Pack.png', title:'Real Mayonnaise', content:'The registration fee', price:'$39.00'},    
+        {img:'/assets/img/dishes/Simple-Pack.png', title:'Mayonnaise', content:'The registration fee', price:'$20.99'},  
+        {img:'/assets/img/dishes/Tam-Pack.png', title:'Tomato Ketchup', content:'The registration fee', price:'$39.00'},    
+  
       ]; 
 
     return (
@@ -15,18 +25,15 @@ const BestSelling3 = () => {
         <div className="popular-dishes-wrapper-container">
             <div className="container">
                 <div className="popular-dishes-wrapper style4">
-                    <div className="shape1 float-bob-x d-none d-xxl-block"><Image src="/assets/img/shape/dishesShape5_1.png" alt="img" width={101} height={79}   /></div>
+                    {/* <div className="shape1 float-bob-x d-none d-xxl-block"><Image src="/assets/img/shape/dishesShape5_1.png" alt="img" width={101} height={79}   /></div> */}
                     <div className="container">
-                        <div className="title-area mb-45">
-                            <div className="sub-title text-center wow fadeInUp" data-wow-delay="0.5s">
-                            <Image className="me-1" src="/assets/img/icon/titleIcon.svg" alt="img" width={20} height={20}   />
-                                POPULAR DISHES<Image className="ms-1" src="/assets/img/icon/titleIcon.svg" alt="img" width={20} height={20}   />
-                            </div>
+                        {/* <div className="title-area mb-45">
+
                             <h2 className="title wow fadeInUp" data-wow-delay="0.7s"
                                 >
-                                Our Most Popular Deals
+                                Our Most Popular Products
                             </h2>
-                        </div>
+                        </div> */}
                         <div className="dishes-card-wrap style4">
                         {foodItems.map((item, i) => (
                             <div  key={i} className="dishes-card style5 wow fadeInUp" data-wow-delay="0.4s">
@@ -37,10 +44,10 @@ const BestSelling3 = () => {
                                     <Link href="/menu">
                                         <h3>{item.title}</h3>
                                     </Link>
-                                    <div className="star"><img src="/assets/img/icon/star2.svg" alt="icon" /></div>
-                                    <div className="text">{item.content}</div>
-                                    <h6>{item.price}</h6>
-                                    <Link href="/menu" className="theme-btn style6"> Order Now <i className="bi bi-basket2"></i></Link>
+                                    {/* <div className="star"><img src="/assets/img/icon/star2.svg" alt="icon" /></div> */}
+                                    {/* <div className="text">{item.content}</div> */}
+                                    {/* <h6>{item.price}</h6> */}
+                                    {/* <Link href="/menu" className="theme-btn style6"> Order Now <i className="bi bi-basket2"></i></Link> */}
                                 </div>
                             </div>
                             ))}

@@ -4,17 +4,21 @@ import Link from "next/link";
 const Team4 = () => {
 
     const teamItems = [
+        {img:'/assets/img/chefe/Ch umer.png', title:'Ch Umer', content:'Manager Sales and Marketing', areas:""},
+        {img:'/assets/img/chefe/Raheel.png', title:'Raheel', content:'TSM', areas:""},
+        {img:'/assets/img/chefe/Sarfaraz.png', title:'Sarfraz', content:'RSM', areas:"GT road belt (Kamoki-Mirpur)"},
+        {img:'/assets/img/chefe/Khurram RSM.png', title:'Khurram Shahzad', content:'RSM', areas:"North KPK belt"},
+        {img:'/assets/img/chefe/Noil.jpg', title:'Noil', content:'Sales Officer', areas:"Chungi, Nishter, Quanchi, Ghazi road, Walton,Ferozpur Road, Kahna, Gajjumatah, Kamahan Lidher Road"},
         {img:'/assets/img/chefe/Altaf.png', title:'Altaf', content:'Sales Officer', areas:"Allama Iqbal Town, Mansoora, Samnabad, Islampura, Gulshan Ravi, Bund Road, Ichra, Shama, Wahdat Road, Muslim Town"},
         {img:'/assets/img/chefe/Asif Munir.png', title:'Asif Muneer', content:'Sales Officer', areas:"Model Town, Johar Town, Wapda Town, Valencia, Defense Road, Ada Plot, Raiwand, Thokar to Behria"},
         {img:'/assets/img/chefe/Ch umer (1).png', title:'Shahmeer', content:'Sales Officer', areas:"Canal Road,Zaraar Shaheed Road , Barki Road, Dharampura,Cantt,Dha phase 8 ,"},
         {img:'/assets/img/chefe/Khurram.png', title:'Khurram Shahzad', content:'Sales Officer', areas:"Shahdarah, Sheikhupura, Bilal Gunj, Mohni Road, Karim Park, Sabzazar, Margazar"},
-        {img:'/assets/img/chefe/Raheel.png', title:'Raheel', content:'TSM', areas:"Canal Road,Zaraar Shaheed Road , Barki Road, Dharampura,Cantt,Dha phase 8 ,"},
+       
         {img:'/assets/img/chefe/Rameez (1).png', title:'Rameez', content:'Sales Officer', areas:"Gulberg, Cavalry, Firdos market, Dha phase 1 To 6, Defense Raya"},
-        {img:'/assets/img/chefe/Sarfaraz.png', title:'Sarfraz', content:'RSM', areas:"Canal Road,Zaraar Shaheed Road , Barki Road, Dharampura,Cantt,Dha phase 8 ,"},
+       
         {img:'/assets/img/chefe/Waqas latif.png', title:'Waqas Latif', content:'Sales Officer', areas:"Gt Road, Shadbagh, Badami bagh, Walled City, Shadman, Ferozpur Road, Shalimar link road"},
-        {img:'/assets/img/chefe/Ch umer.png', title:'Ch Umer', content:'Sales and Marketing', areas:"Canal Road,Zaraar Shaheed Road , Barki Road, Dharampura,Cantt,Dha phase 8 ,"},
-        {img:'/assets/img/chefe/Khurram RSM.png', title:'Khurram', content:'RSM', areas:"Canal Road,Zaraar Shaheed Road , Barki Road, Dharampura,Cantt,Dha phase 8 ,"},
-        {img:'/assets/img/chefe/Noil.jpg', title:'Noil', content:'RSM', areas:"Chungi, Nishter, Quanchi, Ghazi road, Walton,Ferozpur Road, Kahna, Gajjumatah, Kamahan Lidher Road"},
+       
+       
     ];
 
     return (

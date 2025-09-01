@@ -54,14 +54,12 @@ const Footer1 = () => {
                             </div>
                             <div className="footer-content">
                                 <p>
-                                    Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia
-                                    curabitur
-                                    lacinia mollis
+                                Inspired by rich flavors from around the Pak, Delish brings you the perfect sauce for every
+                                moment.
                                 </p>
                                 <div className="social-icon d-flex align-items-center">
                                     <a href="#"><i className="bi bi-facebook"></i></a>
-                                    <a href="#"><i className="bi bi-twitter-x"></i></a>
-                                    <a href="#"><i className="bi bi-instagram"></i></a>
+                                    <a href="https://www.instagram.com/delishpakistan.official"><i className="bi bi-instagram"></i></a>
                                     {/* <a href="#"><i className="bi bi-youtube"></i></a> */}
                                 </div>
                             </div>
@@ -73,18 +71,24 @@ const Footer1 = () => {
                                 <h3>Quick Links</h3>
                             </div>
                             <ul className="list-area">
+                            <li>
+                                    <Link href="/blog-sidebar">
+                                    <i className="bi bi-chevron-double-right"></i>
+                                        Our Distributors
+                                    </Link>
+                                </li>
                                 <li>
-                                    <Link href="/about">
+                                    <Link href="/about2">
                                     <i className="bi bi-chevron-double-right"></i>
                                         About Us
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/faq">
                                     <i className="bi bi-chevron-double-right"></i>
                                         FAQ’S
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link href="/contact">
                                     <i className="bi bi-chevron-double-right"></i>
@@ -101,24 +105,29 @@ const Footer1 = () => {
                             </div>
                             <ul className="list-area">
                                 <li>
-                                    <Link href="/menu">
+                                    <Link href="/sauces">
                                     <i className="bi bi-chevron-double-right"></i>
-                                        Burger King
+                                      Sauces
                                     </Link>
                                 </li>
                                 <li>
-                                <Link href="/menu">
+                                <Link href="/ketchup">
                                     <i className="bi bi-chevron-double-right"></i>
-                                        Pizza king
+                                        Ketchup
                                     </Link>
                                 </li>
                                 <li>
-                                <Link href="/menu">
+                                <Link href="/seasonings">
                                     <i className="bi bi-chevron-double-right"></i>
-                                        Fresh Food
+                                        Seasonings
                                     </Link>
                                 </li>
-
+                                <li>
+                                <Link href="/mayonnaise">
+                                    <i className="bi bi-chevron-double-right"></i>
+                                        Mayonnaise
+                                    </Link>
+                                </li>
 
                             </ul>
                         </div>
@@ -129,12 +138,7 @@ const Footer1 = () => {
                                 <h3>Contact Us</h3>
                             </div>
                             <ul className="list-area">
-                                <li className="mb-2">
-                                    Monday – Friday: <span className="text-theme-color2"> 8am – 4pm </span>
-                                </li>
-                                <li>
-                                    Saturday: <span className="text-theme-color2"> 8am – 12am </span>
-                                </li>
+                                   <p>Email us anytime for any kind of query.</p>
                             </ul>
                             <form className="mt-4">
                                 <div className="form-control">

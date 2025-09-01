@@ -53,9 +53,7 @@ export default function Header1({ variant }) {
                 Follow Us:
                   <ul>
                     <li><a href="#"><i className="bi bi-facebook"></i></a></li>
-                    <li><a href="#"><i className="bi bi-twitter"></i></a></li>
-                    <li><a href="#"><i className="bi bi-linkedin"></i></a></li>
-                    <li><a href="#"><i className="bi bi-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/delishpakistan.official"><i className="bi bi-instagram"></i></a></li>
                 </ul>
                 </div>
               </div>

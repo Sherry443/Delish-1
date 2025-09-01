@@ -19,15 +19,15 @@ const traders = [
 ];
 
 const distributors = [
-  { id: 1, name: "Abdullha", distributerName: "Abdullha Trader", area: "Pindi", phone: "3171175376" },
-  { id: 2, name: "M.Ahsan", distributerName: "Kareemi Trader", area: "wah Cannt", phone: "3201585139" },
-  { id: 3, name: "Shabeer", distributerName: "Qari Shabeer Trader", area: "Manshra", phone: "3111536097" },
-  { id: 4, name: "M.Shoail", distributerName: "Data Trader", area: "Abbottabad", phone: "3118883201" },
-  { id: 5, name: "Ajaz", distributerName: "Musa Trader", area: "AJK MZD", phone: "3009190040" },
-  { id: 6, name: "Ahmad", distributerName: "Marhba Trader", area: "Hajeera", phone: "3558041806" },
-  { id: 7, name: "Farooq", distributerName: "Farooq Trader", area: "Peshwar", phone: "3468889798" },
-  { id: 8, name: "Bilal", distributerName: "Medina Trader", area: "D.I.Khan", phone: "3468884559" },
-  { id: 9, name: "Ahsan", distributerName: "Ahsan Trader", area: "AJK", phone: "3425182305" },
+  { id: 1, name: "Abdullha", distributerName: "Abdullha Trader", area: "Pindi", phone: "03171175376" },
+  { id: 2, name: "M.Ahsan", distributerName: "Kareemi Trader", area: "wah Cannt", phone: "03201585139" },
+  { id: 3, name: "Shabeer", distributerName: "Qari Shabeer Trader", area: "Manshra", phone: "03111536097" },
+  { id: 4, name: "M.Shoail", distributerName: "Data Trader", area: "Abbottabad", phone: "03118883201" },
+  { id: 5, name: "Ajaz", distributerName: "Musa Trader", area: "AJK MZD", phone: "03009190040" },
+  { id: 6, name: "Ahmad", distributerName: "Marhba Trader", area: "Hajeera", phone: "03558041806" },
+  { id: 7, name: "Farooq", distributerName: "Farooq Trader", area: "Peshwar", phone: "03468889798" },
+  { id: 8, name: "Bilal", distributerName: "Medina Trader", area: "D.I.Khan", phone: "03468884559" },
+  { id: 9, name: "Ahsan", distributerName: "Ahsan Trader", area: "AJK", phone: "03425182305" },
 ];
 
 export default function TradersTable() {
@@ -51,7 +51,7 @@ export default function TradersTable() {
           border-radius: 12px;
           padding: 0.5rem;
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-          max-width: 400px;
+          max-width: 700px;
           margin-left: auto;
           margin-right: auto;
         }
@@ -243,13 +243,13 @@ export default function TradersTable() {
           className={`tab-button ${activeTab === 1 ? 'active' : ''}`}
           onClick={() => setActiveTab(1)}
         >
-          Traders
+          GT road belt (Kamoki-Mirpur)
         </button>
         <button 
           className={`tab-button ${activeTab === 2 ? 'active' : ''}`}
           onClick={() => setActiveTab(2)}
         >
-          Distributors
+          North KPK belt
         </button>
       </div>
 

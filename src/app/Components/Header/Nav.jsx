@@ -5,7 +5,7 @@ export default function Nav({ setMobileToggle }) {
   return (
     <ul className="cs_nav_list fw-medium">
       <li className="menu-item">
-        <Link href="/">Home</Link>
+        <Link href="/products">Our Products</Link>
         {/* <DropDown>
           <ul>
             <li>
@@ -27,7 +27,7 @@ export default function Nav({ setMobileToggle }) {
         </DropDown> */}
       </li>
       <li className="menu-item">
-      <Link href="/about2" onClick={() => setMobileToggle(false)}>
+      <Link href="/about" onClick={() => setMobileToggle(false)}>
                 About Us
               </Link>
         {/* <DropDown>
@@ -113,7 +113,7 @@ export default function Nav({ setMobileToggle }) {
       </li> 
       
       <li className="menu-item">
-        <Link href="/chef/chef-details2" onClick={() => setMobileToggle(false)}>
+        <Link href="/team" onClick={() => setMobileToggle(false)}>
           Our Team
         </Link>
         {/* <DropDown>
@@ -146,7 +146,7 @@ export default function Nav({ setMobileToggle }) {
       </li>
 
       <li className="menu-item">
-        <Link href="/gallery" onClick={() => setMobileToggle(false)}>
+        <Link href="/certifications" onClick={() => setMobileToggle(false)}>
           Certifications
         </Link>
         {/* <DropDown>

@@ -5145,7 +5145,7 @@ input.main-search-input::placeholder {
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
-  text-transform: capitalize;
+  text-transform:lowercase !important;
   margin-bottom: 10px;
 }
 .contact-box.style1 p {
@@ -8049,6 +8049,7 @@ input.main-search-input::placeholder {
   background-repeat: no-repeat;
   height: 29rem;
   min-width: 29rem;
+  margin-top: 10rem;
 }
 
 .cta-wrapper.style1 .shape1 {
@@ -8559,7 +8560,7 @@ input.main-search-input::placeholder {
 
 /* 26.Popular Dishes */
 .popular-dishes-section{
-  height: 70vh;
+  height: auto;
 }
 .dishes-card.style1:nth-child(even) {
   margin-top: 80px; /* Even numbered cards ko niche move karna */
@@ -9105,10 +9106,15 @@ input.main-search-input::placeholder {
 }
 .dishes-card.style5 .dishes-content {
   padding: 25px 15px;
+  min-height: 32vh;
 }
 @media (max-width: 1899px) {
   .dishes-card.style5 .dishes-content {
     padding: 25px 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex
+;
   }
 }
 @media (max-width: 1199px) {

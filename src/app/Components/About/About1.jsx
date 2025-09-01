@@ -33,7 +33,7 @@ const About1 = () => {
                                 <h2 className="title text-start wow fadeInUp" data-wow-delay="0.7s">
                                 Delicious Sauces, Every Meal
                                 </h2>
-                                <div class="text text-start wow fadeInUp" data-wow-delay="0.8s">
+                                <div className="text text-start wow fadeInUp" data-wow-delay="0.8s">
   <p>
     <strong>Delish</strong> aims to become a trusted name in Pakistan and beyond by delivering 
     <em>high-quality sauces</em> that are rich in taste, made with real ingredients, and crafted 

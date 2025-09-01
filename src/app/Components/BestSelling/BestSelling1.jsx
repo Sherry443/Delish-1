@@ -4,11 +4,11 @@ import Link from "next/link";
 const BestSelling1 = () => {
 
     const foodItems = [
-        {img:'/assets/img/dishes/BBQ.png', title:'Chicken Fried Rice', content:'The registration fee', price:'$100.99'},    
-        {img:'/assets/img/dishes/Chili.png', title:'Chinese Pasta', content:'The registration fee', price:'$15.99'},    
-        {img:'/assets/img/dishes/Garlic.png', title:'Chicken Pizza', content:'The registration fee', price:'$26.99'},    
-        {img:'/assets/img/dishes/Green.png', title:'Chicken Noodles', content:'The registration fee', price:'$39.00'},    
-        {img:'/assets/img/dishes/Pizza.png', title:'Grilled Chicken', content:'The registration fee', price:'$20.99'},    
+        {img:'/assets/img/dishes/BBQ.png', title:'BBQ Sauce', content:'The registration fee', price:'$100.99'},    
+        {img:'/assets/img/dishes/Chili.png', title:'Chilli Sauce', content:'The registration fee', price:'$15.99'},    
+        {img:'/assets/img/dishes/Garlic.png', title:'Chilli Garlic Ketchup', content:'The registration fee', price:'$26.99'},    
+        {img:'/assets/img/dishes/Green.png', title:'Green Chilli Sauce', content:'The registration fee', price:'$39.00'},    
+        {img:'/assets/img/dishes/Pizza.png', title:'Pizza Sauce', content:'The registration fee', price:'$20.99'},    
       ]; 
 
     return (
@@ -21,18 +21,18 @@ const BestSelling1 = () => {
                         <div className="dishes-thumb">
                         <Image src={item.img} alt="img" width={178} height={218}   />
                         </div>
-                        <Link href="/menu">
+                        <Link href="/product">
                             <h3>{item.title}</h3>
                         </Link>
-                        <p>{item.content}</p>
-                        <h6>{item.price}</h6>
+                        {/* <p>{item.content}</p>
+                        <h6>{item.price}</h6> */}
 
     
                     </div>
                     ))}
                 </div>
                 <div className="btn-wrapper  wow fadeInUp" data-wow-delay="0.9s">
-                    <Link className="theme-btn" href="/menu2">VIEW ALL ITEM <i className="bi bi-arrow-right"></i></Link>
+                    <Link className="theme-btn" href="/products">VIEW ALL ITEM <i className="bi bi-arrow-right"></i></Link>
                 </div>
             </div>
         </div>
