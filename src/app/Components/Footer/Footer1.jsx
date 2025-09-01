@@ -54,14 +54,14 @@ const Footer1 = () => {
                             </div>
                             <div className="footer-content">
                                 <p>
-                                Inspired by rich flavors from around the Pak, Delish brings you the perfect sauce for every
+                                Inspired by rich flavors from around the globe, Delish brings you the perfect sauce for every
                                 moment.
                                 </p>
                                 <div className="social-icon d-flex align-items-center">
                                     <a href="#"><i className="bi bi-facebook"></i></a>
                                     <a href="https://www.instagram.com/delishpakistan.official"><i className="bi bi-instagram"></i></a>
                                     {/* <a href="#"><i className="bi bi-youtube"></i></a> */}
-                                </div>
+                                </div>;
                             </div>
                         </div>
                     </div>

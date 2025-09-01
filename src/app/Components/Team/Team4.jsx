@@ -10,7 +10,7 @@ const Team4 = () => {
         {img:'/assets/img/chefe/Khurram RSM.png', title:'Khurram Shahzad', content:'RSM', areas:"North KPK belt"},
         {img:'/assets/img/chefe/Noil.jpg', title:'Noil', content:'Sales Officer', areas:"Chungi, Nishter, Quanchi, Ghazi road, Walton,Ferozpur Road, Kahna, Gajjumatah, Kamahan Lidher Road"},
         {img:'/assets/img/chefe/Altaf.png', title:'Altaf', content:'Sales Officer', areas:"Allama Iqbal Town, Mansoora, Samnabad, Islampura, Gulshan Ravi, Bund Road, Ichra, Shama, Wahdat Road, Muslim Town"},
-        {img:'/assets/img/chefe/Asif Munir.png', title:'Asif Muneer', content:'Sales Officer', areas:"Model Town, Johar Town, Wapda Town, Valencia, Defense Road, Ada Plot, Raiwand, Thokar to Behria"},
+        {img:'/assets/img/chefe/asif.png', title:'Asif Muneer', content:'Sales Officer', areas:"Model Town, Johar Town, Wapda Town, Valencia, Defense Road, Ada Plot, Raiwand, Thokar to Behria"},
         {img:'/assets/img/chefe/Ch umer (1).png', title:'Shahmeer', content:'Sales Officer', areas:"Canal Road,Zaraar Shaheed Road , Barki Road, Dharampura,Cantt,Dha phase 8 ,"},
         {img:'/assets/img/chefe/Khurram.png', title:'Khurram Shahzad', content:'Sales Officer', areas:"Shahdarah, Sheikhupura, Bilal Gunj, Mohni Road, Karim Park, Sabzazar, Margazar"},
        
@@ -28,9 +28,9 @@ const Team4 = () => {
                     {/* Section Heading */}
                     <div className="section-title text-center mb-5">
                         <div className="title-divider">
-                            <span className="line"></span>
+                       
                             <h2 className="section-heading">Sales Team</h2>
-                            <span className="line"></span>
+                   
                         </div>
                     </div>
                     

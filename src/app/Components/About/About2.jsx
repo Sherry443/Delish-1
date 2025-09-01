@@ -32,7 +32,7 @@ const About2 = () => {
                                     <a onClick={handelClick} 
                                         className="play-btn popup-video"><Image className="cir36" src="/assets/img/shape/player.svg" alt="img" width={152} height={152}   /></a>
                                 </div> */}
-                            </div>a
+                            </div>
 
                         </div>
                         <div className="col-lg-6">
