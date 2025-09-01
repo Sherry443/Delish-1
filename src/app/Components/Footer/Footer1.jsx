@@ -61,7 +61,7 @@ const Footer1 = () => {
                                     <a href="#"><i className="bi bi-facebook"></i></a>
                                     <a href="https://www.instagram.com/delishpakistan.official"><i className="bi bi-instagram"></i></a>
                                     {/* <a href="#"><i className="bi bi-youtube"></i></a> */}
-                                </div>;
+                                </div>
                             </div>
                         </div>
                     </div>
