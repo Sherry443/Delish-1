@@ -15,10 +15,10 @@ const ChefDetails2 = () => {
                     </div>
                     <div className="col-xl-6">
                         <div className="chefe-details-wrapper style2">
-                            <div className="star-wrapper">
+                            {/* <div className="star-wrapper">
                             <Image src="/assets/img/icon/star4.svg" alt="img" width={116} height={16}   />
                                  (5k)
-                            </div>
+                            </div> */}
                             <h2>Ali Jamal</h2>
                             <h6>Sales Head</h6>
                             <h6>0305-8880039</h6>
@@ -26,15 +26,15 @@ const ChefDetails2 = () => {
 
                             <div className="follow-area">
                                 <ul className="social-media">
-                                <li> <a href="https://www.facebook.com"> <i className="bi bi-facebook"></i> </a>
+                                {/* <li> <a href="https://www.facebook.com"> <i className="bi bi-facebook"></i> </a>
                                 </li>
                                 <li> <a href="https://www.youtube.com"> <i className="bi bi-linkedin"></i> </a> </li>
                                 <li> <a href="https://www.x.com"> <i className="bi bi-twitter-x"></i> </a> </li>
                                 <li> <a href="https://www.linkedin.com"><i className="bi bi-linkedin"></i> </a>
-                                </li>
+                                </li> */}
                                 </ul>
                             </div>
-                            <Link className="theme-btn" href="/menu">Contact with me<i className="bi bi-arrow-right"></i></Link>
+                            {/* <Link className="theme-btn" href="/menu">Contact with me<i className="bi bi-arrow-right"></i></Link> */}
                         </div>
                     </div>
                 </div>

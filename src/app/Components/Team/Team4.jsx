@@ -5,9 +5,11 @@ const Team4 = () => {
 
     const teamItems = [
         {img:'/assets/img/chefe/Ch umer.png', title:'Ch Umer', content:'Manager Sales and Marketing', areas:""},
-        {img:'/assets/img/chefe/Raheel.png', title:'Raheel', content:'TSM', areas:""},
+      
         {img:'/assets/img/chefe/Sarfaraz.png', title:'Sarfraz', content:'RSM', areas:"GT road belt (Kamoki-Mirpur)"},
         {img:'/assets/img/chefe/Khurram RSM.png', title:'Khurram Shahzad', content:'RSM', areas:"North KPK belt"},
+        {img:'/assets/img/chefe/shoib.png', title:'Shoaib', content:'TSM', areas:""},
+        {img:'/assets/img/chefe/Raheel.png', title:'Raheel', content:'TSM', areas:""},
         {img:'/assets/img/chefe/Noil.jpg', title:'Noil', content:'Sales Officer', areas:"Chungi, Nishter, Quanchi, Ghazi road, Walton,Ferozpur Road, Kahna, Gajjumatah, Kamahan Lidher Road"},
         {img:'/assets/img/chefe/Altaf.png', title:'Altaf', content:'Sales Officer', areas:"Allama Iqbal Town, Mansoora, Samnabad, Islampura, Gulshan Ravi, Bund Road, Ichra, Shama, Wahdat Road, Muslim Town"},
         {img:'/assets/img/chefe/asif.png', title:'Asif Muneer', content:'Sales Officer', areas:"Model Town, Johar Town, Wapda Town, Valencia, Defense Road, Ada Plot, Raiwand, Thokar to Behria"},

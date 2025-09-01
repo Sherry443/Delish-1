@@ -261,8 +261,8 @@ export default function TradersTable() {
               <th>#</th>
               <th>{isTraders ? 'Name' : 'Contact Name'}</th>
               <th>{isTraders ? 'City' : 'Distributor Name'}</th>
-              <th>{isTraders ? 'Phone' : 'Area'}</th>
-              {!isTraders && <th>Phone</th>}
+              {/* <th>{isTraders ? 'Phone' : 'Area'}</th> */}
+              {/* {!isTraders && <th>Phone</th>} */}
             </tr>
           </thead>
           <tbody className="table-body">
@@ -275,12 +275,12 @@ export default function TradersTable() {
                 <td className="trader-city">
                   {isTraders ? item.city : item.distributerName}
                 </td>
-                <td className={isTraders ? "trader-phone" : "trader-city"}>
+                {/* <td className={isTraders ? "trader-phone" : "trader-city"}>
                   {isTraders ? item.phone : item.area}
                 </td>
                 {!isTraders && (
                   <td className="trader-phone">{item.phone}</td>
-                )}
+                )} */}
               </tr>
             ))}
           </tbody>
