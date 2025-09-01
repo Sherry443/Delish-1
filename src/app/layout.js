@@ -18,13 +18,13 @@ const roboto = Roboto({
 export const metadata = {
   title: {
     absolute: '',
-    default: 'Deliah Pakistan',
-    template: '%s | Deliah Pakistan',
+    default: 'Delish Pakistan',
+    template: '%s | Delish Pakistan',
   },
-  description: 'Deliah Pakistan',
+  description: 'Delish Pakistan',
   openGraph: {
-    title: 'Deliah Pakistan',
-    description: 'Deliah Pakistan',
+    title: 'Delish Pakistan',
+    description: 'Delish Pakistan',
   },
 };
 
