@@ -43,7 +43,7 @@ export default function Header1({ variant }) {
           <div className="cs_top_header_in">
             <div className="cs_top_header_left header-info">
               <ul className="cs_top_nav d-flex flex-wrap align-items-center cs_fs_12 text-white m-0 p-0">
-                <li><i className="bi bi-geo-alt-fill"></i>Lahore, Punjab</li>
+                <li><i className="bi bi-geo-alt-fill"></i>Defence Road, Kahna Flyover Near Soneri Bank Lahore</li>
                 {/* <li><i className="bi bi-alarm"></i>9.00 am - 5.00 pm</li> */}
               </ul>
             </div>
