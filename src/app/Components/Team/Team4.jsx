@@ -4,7 +4,7 @@ import Link from "next/link";
 const Team4 = () => {
 
     const teamItems = [
-        {img:'/assets/img/chefe/Ch umer.png', title:'Ch Umer', content:'Manager Sales and Marketing', areas:""},
+        // {img:'/assets/img/chefe/Ch umer.png', title:'Ch Umer', content:'Manager Sales and Marketing', areas:""},
         {img:'/assets/img/chefe/akbar.png', title:'Akbar Khan', content:'Business development Manager', areas:"South Regionm, Patoki till Sukkher Area"},
         {img:'/assets/img/chefe/Sarfaraz.png', title:'Sarfraz', content:'RSM', areas:"GT road belt (Kamoki-Mirpur)"},
         {img:'/assets/img/chefe/Khurram RSM.png', title:'Khurram Shahzad', content:'RSM', areas:"North KPK belt"},
